@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&display=swap');
 
 :root{
     --branco: white;
-    --cor-de-fundo: #00162E;
-    --fundo-senha: #00244D;
-    --fundo-texto: #001E40;
-    --borda: #0075FF;
-    --roboto: 'Roboto', sans-serif;
-    --roboto-mono: 'Roboto Mono', monospace;
+    --cor-de-fundo: #6d0b1b;
+    --fundo-senha: #a20b31;
+    --fundo-texto: #ba2145;
+    --borda: #eae2e8;
+    --roboto: "Inter", sans-serif;
+    --roboto-mono: "Inter", sans-serif;
 }
 
 *{
@@ -17,12 +18,12 @@
 body{
     color: var(--branco);
     background-color: var(--cor-de-fundo);
-    font-family: var(--roboto);
+    font-family: var(--Inter);
 }
 
 .titulo-principal{
-    font-family: var(--roboto-mono);
-    font-size: 32px;
+    font-family: var(--Inter);
+    font-size: 27px;
 }
 
 .titulo-secundario{
@@ -103,7 +104,17 @@ border-top: 2px solid var(--borda);
 border-bottom: 2px solid var(--borda);
 padding: 24px;
 margin: 0px;
-font-size: 24px;
+font-size: 22px;
+}
+label{ 
+font-size: 20px;
+}
+
+.checkbox{
+width: 20px;
+height: 20px;
+cursor: pointer;
+
 }
 
 @media screen and (min-width: 768px) {
